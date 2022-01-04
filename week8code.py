@@ -53,6 +53,64 @@ z = guess(int(input("Enter 1st number")), int(input ("Enter 2nd number")))
 
 print (z)
 
+# Tuesday 4th Jan 2022
+
+# 1.Write a function that takes a string and a letter as its arguments
+# and returns the count of the letter in string.Hint use the user input and the count method.
+
+# string = input('Write some random text: ')
+# letter = input('In put any random letter: ')
+
+#
+# def count(string, letter):
+#     return string.count(letter)
+#
+#
+# print(count(input('Write some random text: '), input('In put any random letter: ')))
+#
+print('^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^')
+# 2. Create a list that prints all items in your list from uppercase to lowercase.
+
+names = ['ALEX', 'TIM', 'DERRICK']
+
+for name in names:
+    print(name.lower())
+
+
+print('^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^')
+
+# 3. Create a while loop that prints odd numbers from 1 - 15 but skips 5.
+a = []
+b = []
+z = 0
+
+while z < 16:
+    z += 1
+    if z != 5:
+        if z % 2 == 1:
+            a.append(z)
+    else:
+        continue
+
+print(f"list a = {a}")
+
+# Doing the same thing using a for loop
+
+for i in range(1, 16, 2):
+    if i != 5:
+        b.append(i)
+
+print(f"list b = {b}")
+
+
+print('^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^')
+
+
+# 4. Create a tuple of items and convert it into a list.
+
+a = (1, 3, 5, 7)
+c = list(a)
+print(c)
 
 
 
