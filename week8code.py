@@ -1,4 +1,4 @@
-#1 create file and text what is your goals for this year.
+# 1 create file and text what is your goals for this year.
 
 import os
 # f = open("new year.txt", "x")
@@ -14,12 +14,13 @@ print(f.read())
 f.close()
 
 print ("-------------------------------------------------------")
-#2 creat a lambda function using arguments
+# 2 creat a lambda function using arguments
 a = lambda x,y,z: x*y+z
 print(a(1,2,3))
 
-print ("-------------------------------------------------------")
-#3 Create a function that uses the user input. 
+print("-------------------------------------------------------")
+# 3 Create a function that uses the user input.
+
 
 def add(x):
     return "Happy new year " + x
@@ -27,8 +28,8 @@ def add(x):
 
 print(add(input("what is your name: ")))
 
-print ("-------------------------------------------------------")
-#4 Create a whileloop that prints 1-30 but skips 25.
+print("-------------------------------------------------------")
+# 4 Create a whileloop that prints 1-30 but skips 25.
 
 x = 0
 num = []
@@ -38,20 +39,23 @@ while x < 30:
         num.append(x)
     
 print(num)
-print ("-------------------------------------------------------")
+print("-------------------------------------------------------")
 
-#5 Create a function that prints out random numbers. Use 2 arguments. 
+# 5 Create a function that prints out random numbers. Use 2 arguments.
+
 
 import random
 
-def guess(a,b):
+
+def guess(a, b):
 
     return "random number between " + str(a)+" and " + str(b) + " is " + str(random.randint(a, b))
+
 
 z = guess(int(input("Enter 1st number")), int(input ("Enter 2nd number")))
 
 
-print (z)
+print(z)
 
 # Tuesday 4th Jan 2022
 
