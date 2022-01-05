@@ -113,14 +113,35 @@ c = list(a)
 print(c)
 
 
+# lists
+
+list = [['John', 24], ['Brenda', 40]]
+
+for name, age in list:
+    print(name + ":", age)
+
+# list comprehension
+names = ["John", 'Brenda']
+ages = ['32', '66']
 
 
+for i in names:
+    print(i)
+    for j in ages:
+        print(i + ':', j)
 
+    y = [x for x in names]
+    print(y)
 
+names = ["John", 'Brenda']
+z = [j for j in names if 'd' in j]
 
+print(z)
 
+a = [i.upper() for x in names]
+print(a)
 
+t = [i*2 for i in [1, 2, 3]]
 
-
-
+print(t)
 
